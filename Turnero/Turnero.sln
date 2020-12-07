@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turnero.api", "Turnero.api\Turnero.api.csproj", "{6B995A2E-5BA3-41B1-9D2F-58FE598D84F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Turnero", "Api.Turnero\Api.Turnero.csproj", "{7FD38D22-30C1-48EF-864E-531D9EFE3924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turneroo.Blazor", "Turneroo.Blazor\Turneroo.Blazor.csproj", "{EB4DD378-2027-45FE-8161-ED50ECBFCA7D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Turnero", "Api.Turnero\Api.Turnero.csproj", "{7FD38D22-30C1-48EF-864E-531D9EFE3924}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Turnero", "Blazor.Turnero\Blazor.Turnero.csproj", "{218E83CF-C370-4B3F-8819-65B7B86B6BD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Turnero", "Blazor.Turnero\Blazor.Turnero.csproj", "{218E83CF-C370-4B3F-8819-65B7B86B6BD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B995A2E-5BA3-41B1-9D2F-58FE598D84F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B995A2E-5BA3-41B1-9D2F-58FE598D84F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B995A2E-5BA3-41B1-9D2F-58FE598D84F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B995A2E-5BA3-41B1-9D2F-58FE598D84F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB4DD378-2027-45FE-8161-ED50ECBFCA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB4DD378-2027-45FE-8161-ED50ECBFCA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB4DD378-2027-45FE-8161-ED50ECBFCA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB4DD378-2027-45FE-8161-ED50ECBFCA7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7FD38D22-30C1-48EF-864E-531D9EFE3924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7FD38D22-30C1-48EF-864E-531D9EFE3924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD38D22-30C1-48EF-864E-531D9EFE3924}.Release|Any CPU.ActiveCfg = Release|Any CPU
