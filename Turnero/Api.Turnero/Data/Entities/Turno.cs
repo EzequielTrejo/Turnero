@@ -9,8 +9,8 @@ namespace Api.Turnero.Data.Entities
     {
         public int Id_Turno { get; set; }
         public DateTime Fecha { get; set; }
-        public string Cliente { get; set; }
-        public string Servicio { get; set; }
-        public int CostoServicio { get; set; }
+        public Cliente Id_Cliente { get; set; }
+        public float CostoServicio { get; set; }
+        public Servicio Id_Servicio;
     }
 }
