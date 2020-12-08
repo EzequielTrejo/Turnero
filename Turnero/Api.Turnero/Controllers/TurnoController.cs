@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Turnero.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class TurnoController : ControllerBase
     {
         private readonly ApiContext context;
@@ -41,13 +43,7 @@ namespace Api.Turnero.Controllers
         #endregion
 
         #region Post
-        /*[HttpPost]
-        public ActionResult<Personaje> Post([FromBody]Personaje personaje)
-        {
-            context.Personajes.Add(personaje);
-            context.SaveChanges();
-            return personaje;
-        }*/
+
 
         [HttpPost]
         public async Task<ActionResult<Turno>> Post([FromBody] Turno turno)
